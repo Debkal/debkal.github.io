@@ -9,7 +9,7 @@ nav_order: 4
 
 {% if site.data.repositories.github_users %}
 
-## [Github](www.github.com/debkal)
+## <a href="https://www.github.com/debkal">Github</a>
 
 ---
 
