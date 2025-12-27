@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "Sharing projects I&#39;m currently working or have completed.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -99,7 +99,7 @@ ninja.data = [{
               window.location.href = "/news/announcement_3/";
             },},{id: "projects-gait-analysis",
           title: 'Gait Analysis',
-          description: "with background image",
+          description: "Modeling how we walk and extracting the representations.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{
