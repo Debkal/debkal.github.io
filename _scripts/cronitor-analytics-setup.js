@@ -7,3 +7,6 @@ window.cronitor =
     (window.cronitor.q = window.cronitor.q || []).push(arguments);
   };
 cronitor("config", { clientKey: "{{ site.cronitor_analytics }}" });
+
+
+test = (1,2,3);
