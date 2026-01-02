@@ -6,8 +6,8 @@ subtitle: About me
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: true # crops the image to make it circular
+  image: roniPie.jpg
+  image_circular: false # crops the image to make it circular
   more_info: >
     <p>My favorite food.</p>
     <p>Pepperoni Pizza</p>

@@ -3,7 +3,7 @@ layout: post
 title: New Year New Me!
 date: 2026-01-01 17:45:00-0600
 description: Starting off the New Year Strong. Working to help others by working on myself.
-tags: learning, machine learning
+tags: learning, machine-learning
 categories: blog
 ---
 

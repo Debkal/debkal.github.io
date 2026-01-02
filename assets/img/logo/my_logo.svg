@@ -1,0 +1,38 @@
+<svg viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Circular guides showing independence -->
+  <circle cx="300" cy="300" r="180" fill="none" stroke="#000000" stroke-width="2" opacity="0.3"/>
+  <circle cx="300" cy="300" r="120" fill="none" stroke="#000000" stroke-width="2" opacity="0.3"/>
+  
+  <!-- Horizontal lines -->
+  <line x1="300" y1="300" x2="480" y2="300" stroke="#000000" stroke-width="4"/>
+  <line x1="300" y1="300" x2="120" y2="300" stroke="#000000" stroke-width="4"/>
+  
+  <!-- Vertical lines -->
+  <line x1="300" y1="300" x2="300" y2="120" stroke="#000000" stroke-width="4"/>
+  <line x1="300" y1="300" x2="300" y2="480" stroke="#000000" stroke-width="4"/>
+  
+  <!-- Vector sums (diagonal resultants in all four quadrants) -->
+  <!-- Upper-right -->
+  <line x1="300" y1="300" x2="427.3" y2="172.7" stroke="#666666" stroke-width="3" stroke-dasharray="8,4"/>
+  <!-- Upper-left -->
+  <line x1="300" y1="300" x2="172.7" y2="172.7" stroke="#666666" stroke-width="3" stroke-dasharray="8,4"/>
+  <!-- Lower-right -->
+  <line x1="300" y1="300" x2="427.3" y2="427.3" stroke="#666666" stroke-width="3" stroke-dasharray="8,4"/>
+  <!-- Lower-left -->
+  <line x1="300" y1="300" x2="172.7" y2="427.3" stroke="#666666" stroke-width="3" stroke-dasharray="8,4"/>
+  
+  <!-- End point stubs for orthogonal vectors (solid lines) -->
+  <circle cx="480" cy="300" r="6" fill="#000000"/>
+  <circle cx="120" cy="300" r="6" fill="#000000"/>
+  <circle cx="300" cy="120" r="6" fill="#000000"/>
+  <circle cx="300" cy="480" r="6" fill="#000000"/>
+  
+  <!-- End point stubs for vector sums (dashed lines) -->
+  <circle cx="427.3" cy="172.7" r="6" fill="#666666"/>
+  <circle cx="172.7" cy="172.7" r="6" fill="#666666"/>
+  <circle cx="427.3" cy="427.3" r="6" fill="#666666"/>
+  <circle cx="172.7" cy="427.3" r="6" fill="#666666"/>
+  
+  <!-- Center point -->
+  <circle cx="300" cy="300" r="8" fill="#000000"/>
+</svg>
