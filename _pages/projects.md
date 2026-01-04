@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Sharing projects I'm currently working or have completed.
+description: Sharing projects I'm currently working on or completed.
 nav: true
 nav_order: 3
 display_categories: [work]
