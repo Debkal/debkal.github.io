@@ -17,9 +17,22 @@ related_publications: true
 </div>
 <div class="caption">
     <!--remember to use bib data{%cite source %} -->
-    Showing the Gait cycle in key parts from the Health & Gait dataset {%cite zafrapalmg2025healthgait %}
+    Showing the Gait cycle in key parts from the {%cite zafrapalmg2025healthgait %}
 </div>
 <h3>Prior Research</h3>
 <p>Extracting pose maps is easy in this day and age. With all the tool sets available and the contemporary state of machine learning, I was able to prototype a novel edge based bottom-up pose estimator from Google's Mediapipe framework. If your interested check it out here on <a href="www.github.com/google-ai-edge/mediapipe">Github</a>. This gave a real representation of what I have been looking for. Using this prototype I started learning the layers of depth that Gait Analysis requires. I am currently experimenting on a naive Temporal Segmentation Model attempting to predict the ground truth label on Gait characteristics. The datasets I'm using are multi-variant and controlled. As I get further on experimentation I plan to release all my findings and throw a hypothesis for pushing this area of research forward.</p>
 <h3>The current Research shows</h3>
 <p>This topic still needs more datasets in real world environments. However, the current point in progress of computer vision models shows an increase in reliability of computer vision models using Temporal and Spatial feature map representations. The current state of the art <a href="https://github.com/ShiqiYu/OpenGait">Open Gait Modeling</a> approach has built several backbones to predict in more real world unconstrained environments. They have been able to do this by fusing 2 channels of perception. The first channel being a skeletal map also known as a pose estimator. This is the typical bottom up pose algorithm that represents key points within the skeletal frame of any human object. The current backbone for skeletal mapping is SkeletonGait. The second channel is shown to be a silhouette map which has been primarily used in prior models to extract full body shadows. The backbone for this model is DeepGaitV2. After each representation is extracted these are than fused to extract the average representation of both channels of perception into a multi-modal. </p>
+<h3>Data Set Breakdown</h3>
+To demonstrate a visual of what data for this project would look like check my example below using data from {%cite zafrapalmg2025healthgait %}
+
+{::nomarkdown}
+{% assign jupyter_path = 'assets/jupyter/gait_data.ipynb' | relative_url %}
+{% capture notebook_exists %}{% file_exists assets/jupyter/gait_data.ipynb %}{% endcapture %}
+{% if notebook_exists == 'true' %}
+{% jupyter_notebook jupyter_path %}
+{% else %}
+
+<p>Sorry, doesn't Exist.</p>
+{% endif %}
+{:/nomarkdown}
