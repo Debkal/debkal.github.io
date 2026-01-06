@@ -33,6 +33,6 @@ To demonstrate a visual of what data for this project would look like check my e
 {% jupyter_notebook jupyter_path %}
 {% else %}
 
-<p>Sorry, doesn't Exist.</p>
+<p>Sorry, the Jupyter Notebook doesn't Exist.</p>
 {% endif %}
 {:/nomarkdown}
