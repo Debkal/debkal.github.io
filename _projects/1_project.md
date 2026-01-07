@@ -24,7 +24,11 @@ related_publications: true
 <h3>The current Research shows</h3>
 <p>This topic still needs more datasets in real world environments. However, the current point in progress of computer vision models shows an increase in reliability of computer vision models using Temporal and Spatial feature map representations. The current state of the art <a href="https://github.com/ShiqiYu/OpenGait">Open Gait Modeling</a> approach has built several backbones to predict in more real world unconstrained environments. They have been able to do this by fusing 2 channels of perception. The first channel being a skeletal map also known as a pose estimator. This is the typical bottom up pose algorithm that represents key points within the skeletal frame of any human object. The current backbone for skeletal mapping is SkeletonGait. The second channel is shown to be a silhouette map which has been primarily used in prior models to extract full body shadows. The backbone for this model is DeepGaitV2. After each representation is extracted these are than fused to extract the average representation of both channels of perception into a multi-modal. </p>
 <h3>Data Set Breakdown</h3>
-To demonstrate a visual of what data for this project would look like check my example below using data from {%cite zafrapalmg2025healthgait %}
+To demonstrate a visual of what data is used for this project. Check out my example below using data from {%cite zafrapalmg2025healthgait %}.
+
+### Pose Skeleton
+
+<iframe src="/assets/html/alphapose_viewer.html" width="100%" height="660" frameborder="0"></iframe>
 
 {::nomarkdown}
 {% assign jupyter_path = 'assets/jupyter/gait_data.ipynb' | relative_url %}
