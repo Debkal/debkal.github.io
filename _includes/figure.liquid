@@ -39,12 +39,12 @@
       {% if include.width %}
         width="{{ include.width }}"
       {% else %}
-        width="100vw"
+        width="100%"
       {% endif %}
       {% if include.height %}
         height="{{ include.height }}"
       {% else %}
-        height="80%"
+        height="auto"
       {% endif %}
       {% if include['min-width'] or include['min-height'] or include['max-width'] or include['max-height'] %}
         style="
