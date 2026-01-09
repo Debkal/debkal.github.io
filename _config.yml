@@ -11,7 +11,7 @@ contact_note: >
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A student learning machine learning and data analysis. I'm here to learn and make this computer learn too. I'm interested particularly in Gait Analysis and its usage. Follow me on journey to uncover the mysteries of how and why we move forward.
 footer_text: >
-  @debkal.github.io
+  <a href="fcies.com">@fcies.com</a>
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website, machine-learning, gait # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: logo/logo_multi.ico # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
